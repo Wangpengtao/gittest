@@ -19,13 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"ofo";
+    self.title = @"ofo小黄车";
     self.view.backgroundColor = kBackgroundColor;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"保存记录" style:UIBarButtonItemStylePlain target:self action:@selector(rightButtonItemTapAction)];
     
     
     [self createTextField];
-    
     [self createButtonWithType:1];
     [self createButtonWithType:2];
 }
